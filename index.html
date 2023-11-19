@@ -37,12 +37,97 @@
 </head>
 <body class="lato-font">
 <header>
-<!-- Navbar Section Start -->
 
-<section>
 
+
+<!-- Navbar Section  Start -->
+<section class="mb-10 bg-primary-bg text-white ">
+  <!-- Navigation Section -->
+  <nav class="mt-4 lg:mt-8">
+    <div class="container">
+      <div class="drawer">
+        <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
+        <div class="drawer-content flex flex-col">
+          <!-- Navbar -->
+          <div class="w-full navbar justify-between flex-row-reverse lg:flex-row lg:bg-primary lg:text-white lg:rounded-[50px] lg:pl-4 lg:pr-6 lg:py-3">
+            <div class="flex-none lg:hidden">
+              <label for="my-drawer-3" class="btn btn-square btn-ghost text-title">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+              </label>
+            </div>
+            
+            
+            
+            <div class="flex-none hidden lg:block">
+              <ul class="menu menu-horizontal text-base [&>li>a]:hover:bg-primary [&>li>a]:hover:text-white">
+                <!-- Navbar menu content here -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#all-fruits">All Fruits</a></li>
+              </ul>
+            </div>
+            
+            
+            
+            
+            <!-- Logo And Name -->
+            <a href="#home" class="flex items-center gap-2">
+              <img src="./images/logo.png" alt="Logo Icon" class="w-10">
+              <span class="text-2xl font-bold text-title lg:text-white">Fruit Burst</span>
+            </a>
+            
+            
+            
+            
+            <!-- Input Field -->
+            <form action="#" class="hidden bg-white text-title py-2 pr-4 rounded-3xl lg:flex">
+              <input type="search" name="search" id="search" placeholder="Search here" class="focus:outline-none h-full pl-6 pr-4 rounded-l-3xl" required>
+              <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+
+
+
+
+
+
+
+          </div>
+        </div> 
+        <div class="drawer-side z-10">
+          <label for="my-drawer-3" class="drawer-overlay"></label> 
+          <ul class="menu px-6 w-4/5 max-w-[350px] h-full bg-base-200 text-base justify-center items-center">
+            <!-- Sidebar content here -->
+            <li class="mb-6">
+              <form action="#" class="bg-white border-[2px] border-gray-300 text-title py-2 pr-4 rounded-3xl lg:flex justify-between">
+                <input type="search" name="search" id="search" placeholder="Search here" class="focus:outline-none h-full pl-2 pr-2 rounded-l-3xl w-full" required>
+                <button type="submit">
+                  <i class="fa-solid fa-magnifying-glass text-title"></i>
+                </button>
+              </form>
+            </li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#all-fruits">All Fruits</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
 </section>
-<!-- Navbar Section END -->
+
+<!-- Navbar Section  END -->
+
+
+
+
+
+
+
+
 
 <!-- Slider Section Start -->
 <section class="mb-24">
@@ -163,7 +248,7 @@
     </div>
   </div>
 
-  <div class="image-block lg:flex   absolute -bottom-20 left-96  bg-white text-black  ">
+  <div class="image-block lg:flex   absolute -bottom-52 left-96  bg-white text-black  ">
     <div>
      <img src="images/fruit1.png" alt="">
      <p>Strawberry</p>

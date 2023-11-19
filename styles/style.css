@@ -5,7 +5,7 @@
     }
 
     @media (max-width: 600px) {
-      .image-block {
+      .image-block , .search-input {
  display: none;
 }
 
@@ -14,7 +14,7 @@
 
 @media (min-width:601px) and (max-width:768px) {
 
-.image-block {
+.image-block , .search-input {
  display: none;
 }
 }
